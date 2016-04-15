@@ -62,14 +62,14 @@ padding: 0;
 }
 #content{
 width: 945px;
-height: 450px;
-
+height: 350px;
+margin-top: 40px !important;
 }
 #fill{
 width: 400px;
 position: absolute;
 display: block;
-
+ margin:0 0 0 15px !important;
 }
 #fill h2{
 text-indent: -9999px;
@@ -80,8 +80,8 @@ height:147px;
 
 #order{
 display: block;
-width: 400px;
-margin: 0 0 0 425px;
+width: 485px;
+margin: 0 0 0 475px;
 }
 #order h2{
    padding: 10px;
@@ -93,10 +93,35 @@ margin: 0 0 0 425px;
    text-align: center;
 }
 #order h2+p{
-  width: 180px;
+  width: 190px;
+  margin: 120px 0 0 0 !important;
 
 }
+#order h2, #order h2+p{
+position: absolute;
+margin: 50px 0 0 0;
+}
 
+#order p:last-child{
+ background: url(file:///home/topor/Escritorio/Cuaclases2016/rice/images/3d-box.jpg)no-repeat;
+ width: 341px;
+ height: 239px;
+ float: right;
+ margin:35px 0 0 0 !important;
+ text-indent: -9999px;
+}
+#get {
+
+
+
+}
+#get p {
+  text-indent: -9999px;
+  background: url(file:///home/topor/Escritorio/Cuaclases2016/rice/images/footer-buttons.png)no-repeat;
+  width: 354px;
+  height: 98px;
+  background-position: 0px -50px;
+}
 
 .bverde{
  padding:5px 10px 5px 10px;
