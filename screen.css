@@ -55,7 +55,7 @@ text-transform: uppercase;
 
 #content{
  width: 910px;
- height: 450px;
+ height: 350px;
 }
 #fill{
 	
@@ -79,7 +79,6 @@ margin: 0 0 0 450px;
 }
 
 #order h2{
- 
  padding: 10px;
  background: #552F1C;
  border-radius:5px;  
@@ -91,18 +90,31 @@ margin: 0 0 0 450px;
  text-align: center; 
  font:300 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
  box-shadow:0 1px 1px #fff1ab;
-
 }
+
+
+#order h2:hover{
+ padding: 10px;
+ background: #035096;
+ border-radius:5px;  
+ color:#FFF;
+ text-transform: uppercase;
+ font-weight:normal;
+ text-shadow:0 1px 1px #3D1F11;
+ color:#fff;   
+ text-align: center;#035096:300 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+ box-shadow:0 1px 1px #fff1ab;
+}
+
+/* Azul electrico
+color:#7DF9FF;
+*/
+
 
 #order h2+p{
 margin: 85px 0 250px 0;
 position: absolute;
 line-height: 20px;
-
-
-
-
-
 }
 
 
@@ -112,6 +124,7 @@ line-height: 20px;
  float: left !important;
 
 }
+
 #order p:last-child{
 text-indent: -9999px;
  background: url(file:///home/topor/Escritorio/Cuaclases2016/ricebowls3b/images/3d-box.jpg) no-repeat;
@@ -121,6 +134,41 @@ text-indent: -9999px;
  
 }
 
+#get{
+  
+}
+#get p{
+  background: url(file:///home/topor/Escritorio/Cuaclases2016/ricebowls3b/images/footer-buttons.png) no-repeat;
+  text-indent: -9999px;
+  width: 354px;
+  height: 98px;
+  background-position:0px -50px; 
+
+}
+#sistemap{
+ 
+}
+#why, #inv,#resources,#about{
+float: left;
+}
+#why h3, #inv h3, #resources h3, #about h3{
+color:#552F1C;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+#why ul li, #inv ul li, #resources ul li, #about ul li{
+list-style: none;
+}
+
+#why ul li a, #inv ul li a, #resources ul li a, #about ul li a{
+text-decoration: none;
+color:#552F1C;
+}
+#footer {
+ clear: both;
+
+}
 
 .yum{
   clear:both; 
