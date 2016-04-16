@@ -51,9 +51,76 @@ text-transform: uppercase;
  margin: 0;
  padding: 10px;
  background: #FFF;
+}
+
+#content{
+ width: 910px;
+ height: 450px;
+}
+#fill{
+	
+ padding-top: 40px;
+ width: 400px;
+height: 350px;
+ position: absolute;
+}
+#fill h2{
+  text-indent: -9999px;
+  background: url(file:///home/topor/Escritorio/Cuaclases2016/ricebowls3b/images/fill-bowls-fight-hunger.gif) no-repeat ;
+  width: 397px;
+  height: 147px;
+}
+
+#order{
+padding-top: 65px;
+width: 400px;
+height: 350px;
+margin: 0 0 0 450px;
+}
+
+#order h2{
+ 
+ padding: 10px;
+ background: #552F1C;
+ border-radius:5px;  
+ color:#FFF;
+ text-transform: uppercase;
+ font-weight:normal;
+ text-shadow:0 1px 1px #3D1F11;
+ color:#fff;   
+ text-align: center; 
+ font:300 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+ box-shadow:0 1px 1px #fff1ab;
+
+}
+
+#order h2+p{
+margin: 85px 0 250px 0;
+position: absolute;
+line-height: 20px;
+
+
+
 
 
 }
+
+
+#order h2, #order h2+p{
+  
+ width: 160px; 
+ float: left !important;
+
+}
+#order p:last-child{
+text-indent: -9999px;
+ background: url(file:///home/topor/Escritorio/Cuaclases2016/ricebowls3b/images/3d-box.jpg) no-repeat;
+ width: 341px;
+ height: 239px;
+ margin: 0px 0 0 120px;
+ 
+}
+
 
 .yum{
   clear:both; 
@@ -65,4 +132,20 @@ text-transform: uppercase;
 
 
 }
+
+.yum:hover{
+clear:both; 
+  margin: 0 0 0 15px !important; 
+  padding:5px 10px 5px 10px !important;
+  border-radius: 5px;
+  background: #FF6600;
+  color: #FFF;
+
+
+}
+
+
+
+
+
 
